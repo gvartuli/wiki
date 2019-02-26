@@ -1,0 +1,228 @@
+hr {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body {
+  	font-family: cresta, sans-serif;
+  	font-weight: 300;
+  	font-style: normal;
+	/*background-image: url("pictures/background.jpg");*/
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #59337b;
+  padding: 0px;
+  margin: 0px 100px 0px 100px;
+  <!--background-image:url(pictures/logo.png);-->
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdownone {
+  float: left;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  padding: 20px 14px 4px 25px;
+}
+
+.titleofwiki {
+  font-family: cresta, sans-serif;
+  font-weight:500;
+  font-style: normal;
+  font-size: 26px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 14px 0px 198px;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdownone .dropbtnone {
+  font-size: 14px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 12px 16px 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #888888;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdownone:hover .dropdown-content {
+  display: block;
+}
+
+.everythingunderdropdown {
+	padding: 0px 25px;
+/* 
+	margin: 0px 0px 75px 0px;
+ */
+}
+
+.main-body{
+	background-color: #c2cbe8;
+	margin: 0px 75px 0px 75px;
+	padding: 15px 0px 0px 0px;
+	color: #361d35;
+}
+
+.name {
+	font-family: cresta, sans-serif;
+	font-weight:500;
+	font-style: normal;
+	font-size: 32.5px;
+	margin: 0px 0px 9px 25px;
+}
+
+.line-one {
+	height: 1px;
+	background-color: #59337b;
+	border: none;
+	margin: 0px 25px;
+}
+
+.line-two {
+	height: 1px;
+	background-color: #6f70b4;
+	border: none;
+	margin: 31px 0px 0px 0px;
+}
+
+.info {
+	width: 260px;
+	height: auto;
+	background-color: #361d35;
+	float: right;
+	overflow: auto;
+	padding: 5px 0px 0px 0px;
+
+	margin: 20px 25px 5px 25px;
+}
+
+.info-name {
+	font-family: cresta, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.headshot {
+	padding: 9px 0px 4.5px 0px;
+}
+
+.information {
+	font-family: cresta, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	font-size: 13px;
+	padding: 0px 0px 10px 0px;
+	color: white;
+}
+
+.bolded-text {
+	font-family: cresta, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	float: left;
+	text-align: left;
+	font-size: 13px;
+	background-color: #e9edf7;
+	padding: 4.5px 0px 4.5px 6px;
+	width: 95px;
+	line-height: 22.5px;
+}
+
+.unbolded-text {
+	font-family: cresta, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	float: right;
+	text-align: left;
+	font-size: 13px;
+	background-color: #e9edf7;
+	padding: 4.5px 0px 4.5px 6px;
+	width: 153px;
+	line-height: 22.5px;
+}
+
+.left-div-header {
+	padding: 10px 25px 0px 25px;
+	background-color: #c2cbe8;
+	font-size: 13px;
+	font-family: cresta, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	color: #59337b;
+}
+
+.left-div {
+	padding: 8px 25px 14px 25px;
+	background-color: #c2cbe8;
+	font-size: 14px;
+}
+
+button{
+	margin: 0px 0px 14px 25px;
+/* 
+	padding: 0px 0px 20px 0px;
+ */
+	height: 25px;
+	background-color: #c2cbe8;
+	font-size: 13px;
+	border-color: #59337b;
+	color: #59337b;
+}
+
+#myDIV {
+	padding: 0px 25px 14px 25px;
+	background-color: #c2cbe8;
+	color: #361d35;
+	font-size: 13px;
+}
